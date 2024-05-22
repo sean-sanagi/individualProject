@@ -15,7 +15,7 @@ public class TodoService {
 
 	public List<TodoData> getAll() {
 		System.out.println("TODOの一覧を所得");
-		return repository.findAll();
+		return repository.findAllOrderByDeadlineDesc();
 	}
 
 	/*@return 保存されたEntityのID、成功しない場合は0*/
