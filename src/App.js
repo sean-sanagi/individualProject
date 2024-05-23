@@ -8,15 +8,7 @@ import TodoList from './TodoApp/TodoList'
 function App() {
   return (
     <div className="App">
-        {/* <Fruits /> */}
-        {/* <Apartment/> */}
         <TodoList />
-        {/* <Calendar />  */}
-        {/* <Clock /> */}
-
-
-
-
     </div>
   );
 }

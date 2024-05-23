@@ -23,7 +23,7 @@ const TodoList = () => {
             })
     }, [])
 
-    // data型をフォーマットする
+    // data型をフォーマット
     const formatData = (dateString) => {
         const date = new Date(dateString);
         const year = date.getFullYear();
