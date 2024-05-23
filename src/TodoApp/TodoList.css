@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.todo-app {
+    background-color: #fffaf0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    max-width: 100%;
+    min-width: 600px;
+}
+
+h1 {
+    margin: 20px 0px;
+}
+
+.sticky-notes-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sticky-note {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+
+
+.sticky-note td {
+
+    display: block;
+    margin: 8px 0px 5px 0px;
+}
+
+.sticky-note-string {
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 1px 0px;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 7px;
+}
+
+
+
+.todo-app {
+    margin-top: 20px;
+}
+
+.todo-list {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.todo-list h2 {
+    text-align: center;
+}
+
+.todo-list th {
+    background-color: #f2f2f2;
+}
+
+.todo-item {
+    background-color: #fff;
+}
+
+.add-form {
+    width: 200px;
+}
+
+.add-form textarea {
+    margin-top: 5px;
+}
+
+.add-form label {
+    width: 100px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.add-form input {
+    margin-top: 5%;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.textlines:focus {
+    background-color: rgb(247, 247, 221);
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.4);
+}
+
+input[type="datetime-local"] {
+
+    position: relative;
+    padding: 0 10px;
+    width: 200px;
+    height: 36px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: transparent;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #999;
+}
+
+.add-form button {
+    display: grid;
+    margin: auto;
+}
+
+
+.delete-btn {
+    padding: 5px 10px;
+    background-color: #ff6961;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: grid;
+    margin-top: 10px;
+    margin: auto;
+
+}
+
+.delete-btn:hover {
+    background-color: #cc0000;
+}
